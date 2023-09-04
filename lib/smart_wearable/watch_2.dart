@@ -1,0 +1,65 @@
+import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
+
+class realme_watch_two extends StatefulWidget {
+  const realme_watch_two({Key? key}) : super(key: key);
+
+  @override
+  State<realme_watch_two> createState() => _realme_watch_twoState();
+}
+
+class _realme_watch_twoState extends State<realme_watch_two> {
+  WebViewController? _controller;
+  double webProgress = 0;
+
+  @override
+  void initState() {
+    _controller = WebViewController()
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..setBackgroundColor(const Color(0x00000000))
+      ..setNavigationDelegate(
+        NavigationDelegate(
+          onProgress: (progress) => setState(() {
+            this.webProgress = progress / 100;
+          }),
+          onPageStarted: (String url) {},
+          onPageFinished: (String url) {},
+          onWebResourceError: (WebResourceError error) {},
+          onNavigationRequest: (NavigationRequest request) {
+            if (request.url.startsWith('https://www.realme.com/bd/realme-watch-2')) {
+              return NavigationDecision.prevent;
+            }
+            return NavigationDecision.navigate;
+          },
+        ),
+      )
+      ..loadRequest(Uri.parse('https://www.realme.com/bd/realme-watch-2'));
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text("realme Watch 2"),
+          backgroundColor: Colors.yellow,
+        ),
+        body: Column(
+          children: [
+            webProgress < 1 ? SizedBox(
+              height: 7,
+              child: LinearProgressIndicator(
+                value: webProgress,
+                color: Colors.red,
+                backgroundColor: Colors.black,
+              ),
+            ) : SizedBox(),
+            Expanded(
+
+                child: WebViewWidget(controller: _controller!)),
+          ],
+
+        ));
+
+  }
+}
