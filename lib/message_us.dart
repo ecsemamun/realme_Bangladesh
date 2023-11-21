@@ -28,14 +28,14 @@ class _MessageUSState extends State<MessageUS> {
           onPageFinished: (String url) {},
           onWebResourceError: (WebResourceError error) {},
           onNavigationRequest: (NavigationRequest request) {
-            if (request.url.startsWith('https://www.facebook.com/realmeservicebd')) {
+            if (request.url.startsWith('https://www.facebook.com/realmeServiceBD/')) {
               return NavigationDecision.prevent;
             }
             return NavigationDecision.navigate;
           },
         ),
       )
-      ..loadRequest(Uri.parse('https://www.facebook.com/realmeservicebd'));
+      ..loadRequest(Uri.parse('https://www.facebook.com/realmeServiceBD/'));
     super.initState();
   }
 

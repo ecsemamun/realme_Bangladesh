@@ -1,23 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animated_splash_screen/esc/rangpur_esc.dart';
 
-import 'jessore_esc.dart';
-import 'khulna_esc.dart';
+import 'dinajpur_esc.dart';
 
 
-class Khulna_Division extends StatefulWidget {
-  const Khulna_Division({Key? key}) : super(key: key);
+
+class Rangpur_Division extends StatefulWidget {
+  const Rangpur_Division({Key? key}) : super(key: key);
 
   @override
-  State<Khulna_Division> createState() => _Khulna_DivisionState();
+  State<Rangpur_Division> createState() => _Rangpur_DivisionState();
 }
 
-class _Khulna_DivisionState extends State<Khulna_Division> {
+class _Rangpur_DivisionState extends State<Rangpur_Division> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey.shade50,
       appBar: AppBar(
-        title: Text("Khulna Division"),
+        title: Text("Rangpur Division"),
         centerTitle: true,
       ),
       body: new GridView.count(
@@ -32,20 +33,20 @@ class _Khulna_DivisionState extends State<Khulna_Division> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Khulna_ESC()),);
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Rangpur_ESC()),);
                 },
                 child: new Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget> [
-                    new Image.network("https://logos.flamingtext.com/City-Logos/Khulna-Amped-Logo.webp",
+                    new Image.network("https://logos.flamingtext.com/City-Logos/Rangpur-Amped-Logo.png",
                       height: 115.0,
-                      width: 145.0,
+                      width: 160.0,
                       fit: BoxFit.cover,
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: new Text("Khulna ESC",
+                      child: new Text("Rangpur ESC",
                         style: TextStyle(
                           fontSize: 18.0,
                           fontWeight: FontWeight.bold,
@@ -69,21 +70,21 @@ class _Khulna_DivisionState extends State<Khulna_Division> {
               ),
               child: GestureDetector(
                 onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> Jessore_ESC()),);
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Dinajpur_ESC()),);
                 },
                 child: new Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget> [
-                    new Image.network("https://logos.flamingtext.com/City-Logos/Jessore-Amped-Logo.webp",
+                    new Image.asset("assets/dinajpur.png",
                       height: 115.0,
-                      width: 145.0,
+                      width: 160.0,
                       fit: BoxFit.cover,
                     ),
 
                     new SizedBox(height: 3.0,),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: new Text("Jessore ESC",
+                      child: new Text("Dinajpur ESC",
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,

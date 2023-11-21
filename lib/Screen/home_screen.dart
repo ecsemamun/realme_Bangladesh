@@ -32,229 +32,233 @@ class _Home_ScreenState extends State<Home_Screen>
   late TabController controller;
   @override
   void initState() {
-    getConnectivity();
+    // getConnectivity();
     controller = new TabController(length: 5, vsync: this);
     super.initState();
   }
 
-  late StreamSubscription subscription;
-  var isDeviceConnected = false;
-  bool isAlertSet = false;
+  // late StreamSubscription subscription;
+  // var isDeviceConnected = false;
+  // bool isAlertSet = false;
 
-  getConnectivity() =>
-      subscription = Connectivity().onConnectivityChanged.listen(
-        (ConnectivityResult result) async {
-          isDeviceConnected = await InternetConnectionChecker().hasConnection;
-          if (!isDeviceConnected && isAlertSet == false) {
-            showDialogBox();
-            setState(() => isAlertSet = true);
-          }
-        },
-      );
-
-  @override
-  void dispose() {
-    controller.dispose();
-    subscription.cancel();
-    super.dispose();
-  }
+  // getConnectivity() =>
+  //     subscription = Connectivity().onConnectivityChanged.listen(
+  //       (ConnectivityResult result) async {
+  //         isDeviceConnected = await InternetConnectionChecker().hasConnection;
+  //         if (!isDeviceConnected && isAlertSet == false) {
+  //           showDialogBox();
+  //           setState(() => isAlertSet = true);
+  //         }
+  //       },
+  //     );
+  //
+  // @override
+  // void dispose() {
+  //   controller.dispose();
+  //   subscription.cancel();
+  //   super.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () => _onBackButtonPressed(context),
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text(
-            "realme Bangladesh",
-            style: TextStyle(color: Colors.black),
-          ),
-          actions: [
-            IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Services_Day()),
-                );
-              },
-              icon: Icon(Icons.notification_important_outlined),
-              tooltip: "Notification",
+      child: Container(
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
+        child: Scaffold(
+          appBar: AppBar(
+            title: Text(
+              "realme Bangladesh",
+              style: TextStyle(color: Colors.black),
             ),
-          ],
-          backgroundColor: Colors.yellow,
-          centerTitle: true,
-          bottom: new TabBar(
-            controller: controller,
-            indicatorWeight: 5.0,
-            tabs: <Widget>[
-              new Tab(
-                icon: new Icon(Icons.mobile_off_sharp),
-              ),
-              new Tab(
-                icon: new Icon(Icons.laptop),
-              ),
-              new Tab(
-                icon: new Icon(Icons.music_note),
-              ),
-              new Tab(
-                icon: new Icon(Icons.watch),
-              ),
-              new Tab(
-                icon: new Icon(Icons.support),
+            actions: [
+              IconButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Services_Day()),
+                  );
+                },
+                icon: Icon(Icons.notification_important_outlined),
+                tooltip: "Notification",
               ),
             ],
+            backgroundColor: Colors.yellow,
+            centerTitle: true,
+            bottom: new TabBar(
+              controller: controller,
+              indicatorWeight: 5.0,
+              tabs: <Widget>[
+                new Tab(
+                  icon: new Icon(Icons.mobile_off_sharp),
+                ),
+                new Tab(
+                  icon: new Icon(Icons.laptop),
+                ),
+                new Tab(
+                  icon: new Icon(Icons.music_note),
+                ),
+                new Tab(
+                  icon: new Icon(Icons.watch),
+                ),
+                new Tab(
+                  icon: new Icon(Icons.support),
+                ),
+              ],
+            ),
           ),
-        ),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => OnlineSupport()),
-            );
-          },
-          child: Icon(Icons.message),
-          tooltip: "After Sales Department",
-          backgroundColor: Colors.black87,
-          foregroundColor: Colors.yellow,
-          elevation: 0,
-          // shape: BeveledRectangleBorder(
-          //     // borderRadius: BorderRadius.circular(20.0),
-          //     // side: BorderSide(color: Colors.blue, width: 2.0, style: BorderStyle.solid)
-          //     ),
-          // mini: true,
-        ),
-        bottomNavigationBar: BottomAppBar(
-          notchMargin: 5.0,
-          shape: CircularNotchedRectangle(),
-          color: Colors.black87,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Padding(
-                padding: const EdgeInsets.only(left: 10.0),
-                child: GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Brand()),
-                    );
-                  },
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(
-                        Icons.branding_watermark,
-                        color: Colors.white,
-                      ),
-                      Text(
-                        "Brand",
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-              Padding(
-                padding:
-                    const EdgeInsets.only(right: 20.0, top: 10.0, bottom: 10.0),
-                child: GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Community()),
-                    );
-                  },
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(
-                        Icons.line_axis,
-                        color: Colors.white,
-                      ),
-                      Text(
-                        "Community",
-                        style: TextStyle(color: Colors.white),
-                      )
-                    ],
-                  ),
-                ),
-              ),
-              Padding(
-                padding:
-                    const EdgeInsets.only(left: 20.0, top: 10.0, bottom: 10.0),
-                child: GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => WarrantyTerms()),
-                    );
-                  },
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(
-                        Icons.miscellaneous_services,
-                        color: Colors.white,
-                      ),
-                      Text(
-                        "Warranty",
-                        style: TextStyle(color: Colors.white),
-                      )
-                    ],
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(right: 10.0),
-                child: GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => PrivacyPolicy()),
-                    );
-                  },
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(
-                        Icons.privacy_tip,
-                        color: Colors.white,
-                      ),
-                      Text(
-                        "Privacy Policy",
-                        style: TextStyle(
+          floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => OnlineSupport()),
+              );
+            },
+            child: Icon(Icons.message),
+            tooltip: "After Sales Department",
+            backgroundColor: Colors.black87,
+            foregroundColor: Colors.yellow,
+            elevation: 0,
+            // shape: BeveledRectangleBorder(
+            //     // borderRadius: BorderRadius.circular(20.0),
+            //     // side: BorderSide(color: Colors.blue, width: 2.0, style: BorderStyle.solid)
+            //     ),
+            // mini: true,
+          ),
+          bottomNavigationBar: BottomAppBar(
+            notchMargin: 5.0,
+            shape: CircularNotchedRectangle(),
+            color: Colors.black87,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(left: 10.0),
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Brand()),
+                      );
+                    },
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.branding_watermark,
                           color: Colors.white,
-                          fontSize: 12,
                         ),
-                      )
-                    ],
+                        Text(
+                          "Brand",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
-              )
+                Padding(
+                  padding:
+                      const EdgeInsets.only(right: 20.0, top: 10.0, bottom: 10.0),
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Community()),
+                      );
+                    },
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.line_axis,
+                          color: Colors.white,
+                        ),
+                        Text(
+                          "Community",
+                          style: TextStyle(color: Colors.white),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding:
+                      const EdgeInsets.only(left: 20.0, top: 10.0, bottom: 10.0),
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => WarrantyTerms()),
+                      );
+                    },
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.miscellaneous_services,
+                          color: Colors.white,
+                        ),
+                        Text(
+                          "Warranty",
+                          style: TextStyle(color: Colors.white),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(right: 10.0),
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => PrivacyPolicy()),
+                      );
+                    },
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.privacy_tip,
+                          color: Colors.white,
+                        ),
+                        Text(
+                          "Privacy Policy",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 12,
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
+          body: new TabBarView(
+            controller: controller,
+            children: <Widget>[
+              new mobile.Mobile(),
+              new laptop.Laptop(),
+              new audio.Audio(),
+              new life.Life(),
+              new support.Support(),
             ],
           ),
-        ),
-        body: new TabBarView(
-          controller: controller,
-          children: <Widget>[
-            new mobile.Mobile(),
-            new laptop.Laptop(),
-            new audio.Audio(),
-            new life.Life(),
-            new support.Support(),
-          ],
-        ),
-        drawer: Drawer(
-          child: SingleChildScrollView(
-            child: Container(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: <Widget>[
-                  buildHeader(context),
-                  buildMenuItems(context),
-                ],
+          drawer: Drawer(
+            child: SingleChildScrollView(
+              child: Container(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: <Widget>[
+                    buildHeader(context),
+                    buildMenuItems(context),
+                  ],
+                ),
               ),
             ),
           ),
@@ -290,28 +294,28 @@ class _Home_ScreenState extends State<Home_Screen>
     return exitApp ?? false;
   }
 
-  void showDialogBox() => showCupertinoDialog<String>(
-    context: context,
-    builder: (BuildContext context) => CupertinoAlertDialog(
-      title: const Text('No Internet Connection'),
-      content: const Text('Please Check your Internet Connectivity'),
-      actions: <Widget>[
-        TextButton(
-          onPressed: () async {
-            Navigator.pop(context, 'Cancel');
-            setState(() => isAlertSet = true);
-            isDeviceConnected =
-            await InternetConnectionChecker().hasConnection;
-            if (!isDeviceConnected) {
-              showDialogBox();
-              setState(() => isAlertSet = true);
-            }
-          },
-          child: const Text('Ok'),
-        )
-      ],
-    ),
-  );
+  // void showDialogBox() => showCupertinoDialog<String>(
+  //   context: context,
+  //   builder: (BuildContext context) => CupertinoAlertDialog(
+  //     title: const Text('No Internet Connection'),
+  //     content: const Text('Please Check your Internet Connectivity'),
+  //     actions: <Widget>[
+  //       TextButton(
+  //         onPressed: () async {
+  //           Navigator.pop(context, 'Cancel');
+  //           setState(() => isAlertSet = true);
+  //           isDeviceConnected =
+  //           await InternetConnectionChecker().hasConnection;
+  //           if (!isDeviceConnected) {
+  //             showDialogBox();
+  //             setState(() => isAlertSet = true);
+  //           }
+  //         },
+  //         child: const Text('Ok'),
+  //       )
+  //     ],
+  //   ),
+  // );
 }
 
 Widget buildHeader(BuildContext context) => Container(

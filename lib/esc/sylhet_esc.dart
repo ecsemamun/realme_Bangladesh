@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animated_splash_screen/esc/bc_google_map.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class Boshundara_ESC extends StatefulWidget {
-  const Boshundara_ESC({Key? key}) : super(key: key);
+class Sylhet_ESC extends StatefulWidget {
+  const Sylhet_ESC({Key? key}) : super(key: key);
 
   @override
-  State<Boshundara_ESC> createState() => _Boshundara_ESCState();
+  State<Sylhet_ESC> createState() => _Sylhet_ESCState();
 }
 
-class _Boshundara_ESCState extends State<Boshundara_ESC> {
+class _Sylhet_ESCState extends State<Sylhet_ESC> {
   void launchWhatsapp({@required number, @required message}) async {
     String url = "whatsapp://send?phone=$number&text=&message";
     await canLaunch(url) ? launch(url) : print("Can't open whatsapp");
@@ -20,7 +20,7 @@ class _Boshundara_ESCState extends State<Boshundara_ESC> {
     return Scaffold(
       backgroundColor: Colors.grey.shade50,
       appBar: AppBar(
-        title: Text("Welcome To Boshudara ESC"),
+        title: Text("Welcome To Sylhet ESC"),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -32,7 +32,7 @@ class _Boshundara_ESCState extends State<Boshundara_ESC> {
               ),
               ElevatedButton(
                 onPressed: () async {
-                  if (!await launch('tel:+8801309026465'))
+                  if (!await launch('tel:+8801309026470'))
                     throw 'Could not launch';
                 },
                 style: ElevatedButton.styleFrom(
@@ -65,7 +65,7 @@ class _Boshundara_ESCState extends State<Boshundara_ESC> {
               ),
               ElevatedButton(
                 onPressed: () {
-                  launchWhatsapp(number: "+8801757828572", message: "Hello");
+                  launchWhatsapp(number: "+8801309026470", message: "Hello");
                 },
                 style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.zero,
@@ -92,12 +92,13 @@ class _Boshundara_ESCState extends State<Boshundara_ESC> {
                   ),
                 ),
               ),
+
               SizedBox(
                 height: 10,
               ),
               ElevatedButton(
                 onPressed: () {
-                  MapUtils.openMap(23.165696848207016, 89.21370929487712);
+                  MapUtils.openMap(24.89888552468229, 91.87107895810755);
                 },
                 style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.zero,
@@ -132,9 +133,10 @@ class _Boshundara_ESCState extends State<Boshundara_ESC> {
                     elevation: 5,
                     color: Colors.grey.shade200,
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Text(
-                          'realme ESC Boshundara City',
+                          'realme ESC Sylhet',
                           style: TextStyle(
                               fontSize: 20,
                               color: Colors.black,
@@ -148,13 +150,13 @@ class _Boshundara_ESCState extends State<Boshundara_ESC> {
                               fontWeight: FontWeight.bold),
                         ),
                         Text(
-                            "10:30am-07:30pm\n       Wednesday\n12:00am-07:30 pm",
+                            "10:00am-07:00pm",
                             style: TextStyle(
                                 fontSize: 16,
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold)),
                         Text(
-                          "Holiday: Tuesday",
+                          "Holiday: Friday",
                           style: TextStyle(
                               fontSize: 18,
                               color: Colors.black,
@@ -168,14 +170,14 @@ class _Boshundara_ESCState extends State<Boshundara_ESC> {
                               fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          "Shop-97-100, Block-C, Level-5,\nBashundhara Shopping Complex, \n             Panthopath, Dhaka",
+                          "Level: 03,  R N Tower,\n           Chowhatta, \n               ""Sylhet",
                           style: TextStyle(
                               fontSize: 18,
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          "Mobile:+8801309-026465 ",
+                          "           Mobile:\n+8801309-026470",
                           style: TextStyle(
                               fontSize: 18,
                               color: Colors.black,
