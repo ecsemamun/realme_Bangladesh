@@ -43,6 +43,7 @@ class _BrandState extends State<Brand> {
     return Scaffold(
         appBar: AppBar(
           title: const Text("About realme"),
+          backgroundColor: Colors.yellow,
           actions: const [],
         ),
         body: Column(

@@ -45,7 +45,7 @@ class _OnlineSupportState extends State<OnlineSupport> {
               ),
               new SizedBox(height: 3.0,),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(5.0),
                 child: new Text("Call US",
                   style: TextStyle(
                     fontSize: 13.0,
@@ -82,7 +82,7 @@ class _OnlineSupportState extends State<OnlineSupport> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(5.0),
                       child: new Text("Email US",
                         style: TextStyle(
                           fontSize: 13.0,
@@ -119,7 +119,7 @@ class _OnlineSupportState extends State<OnlineSupport> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(5.0),
                       child: new Text("Facebook Messenger",
                         style: TextStyle(
                           fontSize: 13.0,
@@ -156,7 +156,7 @@ class _OnlineSupportState extends State<OnlineSupport> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(5.0),
                       child: new Text("Phone Message",
                         style: TextStyle(
                           fontSize: 13.0,
