@@ -4,14 +4,14 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_animated_splash_screen/brand.dart';
-import 'package:flutter_animated_splash_screen/community.dart';
+import 'package:flutter_animated_splash_screen/bottom_navigation/brand.dart';
+import 'package:flutter_animated_splash_screen/bottom_navigation/community.dart';
 import 'package:flutter_animated_splash_screen/login-signup/My_Login.dart';
-import 'package:flutter_animated_splash_screen/online_support.dart';
-import 'package:flutter_animated_splash_screen/privacy_policy.dart';
+import 'package:flutter_animated_splash_screen/bottom_navigation/online_support.dart';
+import 'package:flutter_animated_splash_screen/bottom_navigation/privacy_policy.dart';
 import 'package:flutter_animated_splash_screen/services_day.dart';
 import 'package:flutter_animated_splash_screen/user_guide.dart';
-import 'package:flutter_animated_splash_screen/warranty_terms.dart';
+import 'package:flutter_animated_splash_screen/bottom_navigation/warranty_terms.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
@@ -136,7 +136,7 @@ class _Home_ScreenState extends State<Home_Screen>
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 10.0),
+                  padding: const EdgeInsets.only(left: 5.0),
                   child: GestureDetector(
                     onTap: () {
                       Navigator.push(
@@ -161,7 +161,7 @@ class _Home_ScreenState extends State<Home_Screen>
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(right: 20.0, top: 10.0, bottom: 10.0),
+                      const EdgeInsets.only(right: 20.0, top: 10.0, bottom: 1.0),
                   child: GestureDetector(
                     onTap: () {
                       Navigator.push(
@@ -186,7 +186,7 @@ class _Home_ScreenState extends State<Home_Screen>
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 20.0, top: 10.0, bottom: 10.0),
+                      const EdgeInsets.only(left: 20.0, top: 10.0, bottom: 1.0),
                   child: GestureDetector(
                     onTap: () {
                       Navigator.push(
@@ -210,7 +210,7 @@ class _Home_ScreenState extends State<Home_Screen>
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(right: 10.0),
+                  padding: const EdgeInsets.only(right: 3.0),
                   child: GestureDetector(
                     onTap: () {
                       Navigator.push(
@@ -382,11 +382,11 @@ Widget buildMenuItems(BuildContext context) => Container(
                 },
               ),
 
-          ListTile(
-            leading: const Icon(Icons.notification_add),
-            title: const Text('Notifications'),
-            onTap: () {},
-          ),
+          // ListTile(
+          //   leading: const Icon(Icons.notification_add),
+          //   title: const Text('Notifications'),
+          //   onTap: () {},
+          // ),
           const Divider(
             color: Colors.black,
           ),
@@ -408,11 +408,11 @@ Widget buildMenuItems(BuildContext context) => Container(
               );
             },
           ),
-          ListTile(
-            leading: const Icon(Icons.settings),
-            title: const Text('Settings'),
-            onTap: () {},
-          ),
+          // ListTile(
+          //   leading: const Icon(Icons.settings),
+          //   title: const Text('Settings'),
+          //   onTap: () {},
+          // ),
           ListTile(
             leading: const Icon(Icons.logout),
             title: const Text('Log Out'),

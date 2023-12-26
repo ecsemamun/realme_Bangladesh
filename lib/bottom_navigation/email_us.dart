@@ -33,6 +33,7 @@ class _Email_USState extends State<Email_US> {
     return Scaffold (
       appBar: AppBar(
         title: const Text("Complain Box Area"),
+        backgroundColor: Colors.amber,
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),

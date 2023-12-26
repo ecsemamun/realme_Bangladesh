@@ -2,14 +2,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animated_splash_screen/esc_collection_point.dart';
-import 'package:flutter_animated_splash_screen/spare_parts_list.dart';
-import 'package:flutter_animated_splash_screen/store_address.dart';
+import 'package:flutter_animated_splash_screen/support/spare_parts_list.dart';
+import 'package:flutter_animated_splash_screen/support/store_address.dart';
 import 'package:flutter_animated_splash_screen/support_faq.dart';
-import 'package:flutter_animated_splash_screen/troubleshotting.dart';
+import 'package:flutter_animated_splash_screen/support/troubleshotting.dart';
 import 'package:flutter_animated_splash_screen/user_guide.dart';
 import 'package:flutter_animated_splash_screen/warranty_check.dart';
 
 import '../Safeguard/safeguard.dart';
+import '../support/realme_care.dart';
+import '../support/services_policy.dart';
 
 
 class Support extends StatefulWidget {
@@ -185,6 +187,43 @@ class _SupportState extends State<Support> {
 
               ),
             ),
+            new Container(
+              child: new Card(
+                elevation: 10.0,
+                margin: EdgeInsets.all(8.0),
+                shape: new RoundedRectangleBorder(
+                    borderRadius: new BorderRadius.circular(20.0)
+                ),
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => realme_Care()),);
+                  },
+                  child: new Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget> [
+                      new Image.asset("assets/care.png",
+                        height: 115.0,
+                        width: 115.0,
+                        fit: BoxFit.cover,
+                      ),
+                      new SizedBox(height: 3.0,),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: new Text("realme Care+",
+                          style: TextStyle(
+                            fontSize: 14.0,
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+
+                    ],
+                  ),
+                ),
+
+              ),
+            ),
 
             new Container(
               child: new Card(
@@ -223,7 +262,43 @@ class _SupportState extends State<Support> {
 
               ),
             ),
+            new Container(
+              child: new Card(
+                elevation: 10.0,
+                margin: EdgeInsets.all(8.0),
+                shape: new RoundedRectangleBorder(
+                    borderRadius: new BorderRadius.circular(20.0)
+                ),
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Services_Policy()),);
+                  },
+                  child: new Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget> [
+                      new Image.asset("assets/service.png",
+                        height: 115.0,
+                        width: 115.0,
+                        fit: BoxFit.cover,
+                      ),
+                      new SizedBox(height: 3.0,),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: new Text("Services Policy",
+                          style: TextStyle(
+                            fontSize: 14.0,
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
 
+                    ],
+                  ),
+                ),
+
+              ),
+            ),
 
             new Container(
               child: new Card(

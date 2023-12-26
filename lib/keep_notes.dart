@@ -100,6 +100,7 @@ class _Keep_NotesState extends State<Keep_Notes> {
     return Scaffold(
       appBar: AppBar(
         title: Text("কাস্টমার সাভির্স চেকলিস্ট"),
+        backgroundColor: Colors.amber,
       ),
       body: SingleChildScrollView(
         child: Column(

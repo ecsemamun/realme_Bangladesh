@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animated_splash_screen/after_sales.dart';
+import 'package:flutter_animated_splash_screen/bottom_navigation/after_sales.dart';
 
 import 'faq.dart';
 

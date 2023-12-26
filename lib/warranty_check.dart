@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animated_splash_screen/online_warranty_check.dart';
+import 'package:flutter_animated_splash_screen/support/online_warranty_check.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 

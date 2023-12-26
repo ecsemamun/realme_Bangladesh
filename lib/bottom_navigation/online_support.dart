@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animated_splash_screen/email_us.dart';
-import 'package:flutter_animated_splash_screen/message_us.dart';
+import 'package:flutter_animated_splash_screen/bottom_navigation/email_us.dart';
+import 'package:flutter_animated_splash_screen/bottom_navigation/message_us.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class OnlineSupport extends StatefulWidget {

@@ -287,23 +287,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.34,990 +VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '         realme GT Neo2',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.34,990 +VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '         realme GT Neo2',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -337,23 +337,23 @@ class _MobileState extends State<Mobile> {
                         padding: const EdgeInsets.all(8.0),
                         child: new RichText(
                             text: TextSpan(children: [
-                          TextSpan(
-                            text: 'Tk.34,990 +VAT Applicable\n',
-                            style: TextStyle(
-                              color: Colors.red,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 12.0,
-                            ),
-                          ),
-                          TextSpan(
-                            text: 'realme GT Master Edition',
-                            style: TextStyle(
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 12.0,
-                            ),
-                          ),
-                        ])),
+                              TextSpan(
+                                text: 'Tk.34,990 +VAT Applicable\n',
+                                style: TextStyle(
+                                  color: Colors.red,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 12.0,
+                                ),
+                              ),
+                              TextSpan(
+                                text: 'realme GT Master Edition',
+                                style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 12.0,
+                                ),
+                              ),
+                            ])),
                       ),
                     ],
                   ),
@@ -390,23 +390,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.12,999/14,999 + VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 9.3,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '              realme C33',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.12,999/14,999 + VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 9.3,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '              realme C33',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -441,23 +441,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.9,999 + VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.3,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '             realme C30',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.9,999 + VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.3,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '             realme C30',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -492,23 +492,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.16,999/18,999 + VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 9.3,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '              realme C35',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.16,999/18,999 + VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 9.3,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '              realme C35',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -543,23 +543,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.14,999+VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.3,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '             realme C31',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.14,999+VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.3,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '             realme C31',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -594,23 +594,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.14,499 + VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 10.3,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '        realme C25Y',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.14,499 + VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 10.3,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '        realme C25Y',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -645,23 +645,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.12,990/13,990 + VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 9.3,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '            realme C21Y',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.12,990/13,990 + VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 9.3,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '            realme C21Y',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -696,23 +696,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.10,499/12,499 + VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 9.3,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '         realme C11 2021',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.10,499/12,499 + VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 9.3,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '         realme C11 2021',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -747,23 +747,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.16,490 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '            realme C25s',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.16,490 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '            realme C25s',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -799,23 +799,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.34,999 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '            realme 9 Pro+',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.34,999 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '            realme 9 Pro+',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -850,23 +850,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.27,999 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '            realme 9 Pro',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.27,999 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '            realme 9 Pro',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -901,23 +901,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.24,999 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '                 realme 9',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.24,999 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '                 realme 9',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -952,23 +952,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.20,999 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '               realme 9i',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.20,999 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '               realme 9i',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -1005,23 +1005,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.20,990 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '              realme 8 5G',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.20,990 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '              realme 8 5G',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -1058,23 +1058,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.25,990 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '              realme 8',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.25,990 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '              realme 8',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -1112,23 +1112,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.27,990 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '            realme 8 Pro',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.27,990 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '            realme 8 Pro',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -1166,23 +1166,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.17,990 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '               realme 7i',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.17,990 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '               realme 7i',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -1219,23 +1219,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.27,990 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '            realme 7 Pro',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.27,990 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '            realme 7 Pro',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -1272,23 +1272,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.16,990 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '             realme 6',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.16,990 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '             realme 6',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -1325,23 +1325,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.16,990 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '            realme 6i',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.16,990 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '            realme 6i',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
@@ -1378,23 +1378,23 @@ class _MobileState extends State<Mobile> {
                           padding: const EdgeInsets.all(8.0),
                           child: new RichText(
                               text: TextSpan(children: [
-                            TextSpan(
-                              text: 'Tk.12,990 VAT Applicable\n',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '            realme 5i',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 12.0,
-                              ),
-                            ),
-                          ]))),
+                                TextSpan(
+                                  text: 'Tk.12,990 VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '            realme 5i',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
                     ],
                   ),
                 ),
