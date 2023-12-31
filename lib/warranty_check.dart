@@ -64,7 +64,7 @@ class _WarrantyCheckState extends State<WarrantyCheck> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(6.0),
                       child: new Text("Get Device Info",
                         style: TextStyle(
                           fontSize: 13.0,
@@ -101,7 +101,7 @@ class _WarrantyCheckState extends State<WarrantyCheck> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(6.0),
                       child: new Text("Online Warranty Check",
                         style: TextStyle(
                           fontSize: 13.0,

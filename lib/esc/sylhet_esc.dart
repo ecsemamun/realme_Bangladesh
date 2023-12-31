@@ -22,6 +22,7 @@ class _Sylhet_ESCState extends State<Sylhet_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Sylhet ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

@@ -22,6 +22,7 @@ class _Gazipur_ESCState extends State<Gazipur_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Gazipur ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

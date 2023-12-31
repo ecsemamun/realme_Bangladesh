@@ -24,6 +24,7 @@ class _All_EscState extends State<All_Esc> {
       appBar: AppBar(
         title: Text("Select Your Division"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: new GridView.count(
         physics: BouncingScrollPhysics(),
@@ -32,7 +33,7 @@ class _All_EscState extends State<All_Esc> {
           new Container(
             child: new Card(
               elevation: 10.0,
-              margin: EdgeInsets.all(8.0),
+              margin: EdgeInsets.all(6.0),
               shape: new RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(20.0)
               ),
@@ -50,8 +51,8 @@ class _All_EscState extends State<All_Esc> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: new Text("Dhaka Division",
+                      padding: const EdgeInsets.all(6.0),
+                      child: new Text("Dhaka",
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -88,7 +89,7 @@ class _All_EscState extends State<All_Esc> {
 
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(6.0),
                       child: new Text("Mymensingh",
                         style: TextStyle(
                           fontSize: 20.0,
@@ -125,8 +126,8 @@ class _All_EscState extends State<All_Esc> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: new Text("Khulna Division",
+                      padding: const EdgeInsets.all(5.0),
+                      child: new Text("Khulna",
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -161,8 +162,8 @@ class _All_EscState extends State<All_Esc> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: new Text("Sylhet Division",
+                      padding: const EdgeInsets.all(5.0),
+                      child: new Text("Sylhet",
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -198,8 +199,8 @@ class _All_EscState extends State<All_Esc> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: new Text("Rangpur ESC",
+                      padding: const EdgeInsets.all(6.0),
+                      child: new Text("Rangpur",
                         style: TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
@@ -235,7 +236,7 @@ class _All_EscState extends State<All_Esc> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(6.0),
                       child: new Text("Rajshahi",
                         style: TextStyle(
                           fontSize: 20.0,
@@ -272,7 +273,7 @@ class _All_EscState extends State<All_Esc> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(6.0),
                       child: new Text("Barishal ESC",
                         style: TextStyle(
                           fontSize: 20.0,
@@ -309,7 +310,7 @@ class _All_EscState extends State<All_Esc> {
                     ),
                     new SizedBox(height: 3.0,),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(6.0),
                       child: new Text("Chattogram ESC",
                         style: TextStyle(
                           fontSize: 20.0,

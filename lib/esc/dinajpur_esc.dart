@@ -22,6 +22,7 @@ class _Dinajpur_ESCState extends State<Dinajpur_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Dinajpur ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

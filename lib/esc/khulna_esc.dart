@@ -22,6 +22,7 @@ class _Khulna_ESCState extends State<Khulna_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Khulna ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

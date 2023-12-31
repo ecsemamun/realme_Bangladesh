@@ -22,6 +22,7 @@ class _Tangail_ESCState extends State<Tangail_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Tangail ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

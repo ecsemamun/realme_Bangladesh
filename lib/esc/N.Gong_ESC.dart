@@ -22,6 +22,7 @@ class _N_Gong_ESCState extends State<N_Gong_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Narayongong ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

@@ -22,6 +22,7 @@ class _Rangpur_ESCState extends State<Rangpur_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Rangpur ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

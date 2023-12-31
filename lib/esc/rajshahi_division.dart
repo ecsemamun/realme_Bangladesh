@@ -20,6 +20,7 @@ class _Rajshahi_DivisionState extends State<Rajshahi_Division> {
       appBar: AppBar(
         title: Text("Rajshahi Division"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: new GridView.count(
         crossAxisCount: 2,

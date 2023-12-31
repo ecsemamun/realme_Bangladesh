@@ -22,6 +22,7 @@ class _Mirpur_ESCState extends State<Mirpur_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Mirpur ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

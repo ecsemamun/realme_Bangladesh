@@ -22,6 +22,7 @@ class _Old_DhakaState extends State<Old_Dhaka> {
       appBar: AppBar(
         title: Text("Welcome To Old Dhaka ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

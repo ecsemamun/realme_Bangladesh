@@ -22,6 +22,7 @@ class _Bogura_ESCState extends State<Bogura_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Bogura ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

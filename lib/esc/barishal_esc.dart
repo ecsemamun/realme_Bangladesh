@@ -22,6 +22,7 @@ class _Barishal_ESCState extends State<Barishal_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Barishal ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

@@ -22,6 +22,7 @@ class _Boshundara_ESCState extends State<Boshundara_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Boshudara ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

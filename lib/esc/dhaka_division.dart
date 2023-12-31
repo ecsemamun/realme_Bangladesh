@@ -24,6 +24,7 @@ class _Dhaka_DivisionState extends State<Dhaka_Division> {
       appBar: AppBar(
         title: Text("Dhaka Division"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: new GridView.count(
         crossAxisCount: 2,
@@ -117,9 +118,9 @@ class _Dhaka_DivisionState extends State<Dhaka_Division> {
                 child: new Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget> [
-                    new Image.network("https://logos.flamingtext.com/City-Logos/Khulna-Amped-Logo.png",
+                    new Image.network("https://firebasestorage.googleapis.com/v0/b/realme-f185d.appspot.com/o/ESC_Logo%2Fmirpur.png?alt=media&token=8aa1163e-a78a-4e6b-b397-1c570ac37d09",
                       height: 115.0,
-                      width: 115.0,
+                      width: 135.0,
                       fit: BoxFit.cover,
                     ),
                     new SizedBox(height: 3.0,),
@@ -154,9 +155,9 @@ class _Dhaka_DivisionState extends State<Dhaka_Division> {
                 child: new Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget> [
-                    new Image.network("https://logos.flamingtext.com/City-Logos/Sylhet-Amped-Logo.png",
+                    new Image.network("https://firebasestorage.googleapis.com/v0/b/realme-f185d.appspot.com/o/ESC_Logo%2Fgazipur.png?alt=media&token=b009980a-a568-4da7-9f54-e860480eeeb4",
                       height: 115.0,
-                      width: 115.0,
+                      width: 140.0,
                       fit: BoxFit.cover,
                     ),
                     new SizedBox(height: 3.0,),
@@ -191,9 +192,9 @@ class _Dhaka_DivisionState extends State<Dhaka_Division> {
                 child: new Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget> [
-                    new Image.network("https://logos.flamingtext.com/City-Logos/Rangpur-Amped-Logo.png",
+                    new Image.network("https://firebasestorage.googleapis.com/v0/b/realme-f185d.appspot.com/o/ESC_Logo%2Fodk.png?alt=media&token=5f8f81ed-8ac7-467f-b9c2-8d509dbb858a",
                       height: 115.0,
-                      width: 115.0,
+                      width: 135.0,
                       fit: BoxFit.cover,
                     ),
                     new SizedBox(height: 3.0,),
@@ -228,9 +229,9 @@ class _Dhaka_DivisionState extends State<Dhaka_Division> {
                 child: new Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget> [
-                    new Image.asset("assets/rajshahi.png",
+                    new Image.network("https://firebasestorage.googleapis.com/v0/b/realme-f185d.appspot.com/o/ESC_Logo%2Fn.gong.png?alt=media&token=31acc3bf-37d0-478e-958a-461e0c563b90",
                       height: 115.0,
-                      width: 115.0,
+                      width: 135.0,
                       fit: BoxFit.cover,
                     ),
                     new SizedBox(height: 3.0,),
@@ -268,7 +269,7 @@ class _Dhaka_DivisionState extends State<Dhaka_Division> {
                   children: <Widget> [
                     new Image.network("https://logos.flamingtext.com/City-Logos/Tangail-Amped-Logo.png",
                       height: 115.0,
-                      width: 140.0,
+                      width: 145.0,
                       fit: BoxFit.cover,
                     ),
                     new SizedBox(height: 3.0,),

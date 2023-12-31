@@ -24,7 +24,7 @@ class _ESC_InfoState extends State<ESC_Info> {
           new Container(
             child: new Card(
               elevation: 10.0,
-              margin: EdgeInsets.all(8.0),
+              margin: EdgeInsets.all(6.0),
               shape: new RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(20.0)),
               child: GestureDetector(

@@ -22,6 +22,7 @@ class _Uttora_ESCState extends State<Uttora_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Uttora ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

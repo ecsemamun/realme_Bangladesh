@@ -22,6 +22,7 @@ class _Raj_ESCState extends State<Raj_ESC> {
       appBar: AppBar(
         title: Text("Welcome To Rajshahi ESC"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: SingleChildScrollView(
         child: Center(

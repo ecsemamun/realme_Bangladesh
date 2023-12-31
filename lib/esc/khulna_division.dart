@@ -19,6 +19,7 @@ class _Khulna_DivisionState extends State<Khulna_Division> {
       appBar: AppBar(
         title: Text("Khulna Division"),
         centerTitle: true,
+        backgroundColor: Colors.yellow,
       ),
       body: new GridView.count(
         crossAxisCount: 2,
