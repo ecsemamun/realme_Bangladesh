@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animated_splash_screen/all_mobile/C30s.dart';
+import 'package:flutter_animated_splash_screen/all_mobile/C67.dart';
 import 'package:flutter_animated_splash_screen/all_mobile/c11_2021.dart';
 import 'package:flutter_animated_splash_screen/all_mobile/c21y.dart';
 import 'package:flutter_animated_splash_screen/all_mobile/c25s.dart';
@@ -46,6 +47,58 @@ class _MobileState extends State<Mobile> {
           physics: BouncingScrollPhysics(),
           crossAxisCount: 2,
           children: <Widget>[
+            new Container(
+              child: new Card(
+                elevation: 10.0,
+                margin: EdgeInsets.all(8.0),
+                shape: new RoundedRectangleBorder(
+                    borderRadius: new BorderRadius.circular(20.0)),
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => C67()),
+                    );
+                    Fluttertoast.showToast(msg: 'realme C67');
+                  },
+                  child: new Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      new Image.network(
+                        "https://image01.realme.net/general/20240208/17073739940490fdffcc5951c45cba7a71f6688165a44.png.webp",
+                        height: 115.0,
+                        width: 115.0,
+                        fit: BoxFit.cover,
+                      ),
+                      new SizedBox(
+                        height: 3.0,
+                      ),
+                      Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: new RichText(
+                              text: TextSpan(children: [
+                                TextSpan(
+                                  text: 'Tk.22,999 +VAT Applicable\n',
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: '         realme C67',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12.0,
+                                  ),
+                                ),
+                              ]))),
+                    ],
+                  ),
+                ),
+              ),
+            ),
             new Container(
               child: new Card(
                 elevation: 10.0,
